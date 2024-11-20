@@ -1,39 +1,23 @@
 # M01W01 - Tech Talk and Curriculum Outline
 
-### Tech Chat
-* please do all work inside WSL
-* check your Node version (v16)
-* sharing your screen is a security concern
+### Tech Talk
+* For Windows users, please do all work inside WSL
+* Sharing your screen is a security concern (instructions posted in Discord)
+* Check your node version (v16)
 
-### Curriculum
-* Module 1 => FOCAL Functions Objects Conditions Arrays Loops - Lotide (lodash)
-* Module 2 => Networking - Snek
-* Module 3 => Web Servers - TinyApp (tinyurl, bitly)
-* Module 4 => Client Side JavaScript - Tweeter
-* Module 5 => Databases (SQL) - LightBnB
-* Module 6 => Midterm Project
-* Module 7 => React - PhotoLabs
-* Module 8 => Testing!!!
-* Module 9 => Real World Job Simulation - Jungle
-* Module 10 => Final Project
+### Curriculum Overview
+* Module 1 - Programming Fundamentals (functions, objects, conditions, arrays, loops) - Lotide
+* Module 2 - Networking and HTTP - Snake
+* Module 3 - Web server development (web servers, cookies, security) - TinyApp
+* Module 4 - Front end development (HTML, CSS, JS) - Tweeter
+* Module 5 - Databases (SQL, relational databases) - LightBnB
+* Module 6 - Midterm Project (Group)
+* Module 7 - React - PhotoLabs
+* Module 8 - Automated testing in React (jest, cypress) - Scheduler
+* Module 9 - Ruby on Rails (job simulation module) - Jungle
+* Module 10 - Final Project (Group)
 
 ### Exams and Technical Interviews
-* 2 Technical Interviews (TI)
-* 6 Exams
-* Fundamental Comp Sci Topics (recursion, OOP, big O notation)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 6 exams
+* 2 technical interviews (TI)
+* Fundamental computer science topics
