@@ -2,7 +2,6 @@
 
 // how to remove the first two elements of an array
 
-// ASI
 // process.argv.shift();
 // process.argv.shift();
 
@@ -25,7 +24,6 @@ for (const num of sliced) {
 }
 
 console.log('runningTotal', runningTotal); // 17
-
 
 // c-style loop
 // for (let i = 0; i < sliced.length; i++) {
