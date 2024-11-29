@@ -9,7 +9,6 @@
 // implicit => don't ask for them to happen (happen on their own)
 // explicit => we ask for it to happen
 
-
 const sayHello1 = function(name) {
   return `hello there ${name}`;
 };
@@ -24,5 +23,3 @@ const sayHello2 = name => `hello there ${name}`;
 
 const returnVal = sayHello2('carol');
 console.log('returnVal', returnVal);
-
-

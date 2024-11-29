@@ -39,4 +39,3 @@ const x = myFunc;
 
 // console.log(x);
 // x(); // myFunc()
-

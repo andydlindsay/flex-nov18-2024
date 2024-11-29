@@ -30,4 +30,3 @@ names.forEach(namesDoOnEachLoop);
 // loopThroughArray(nums, numsDoOnEachLoop);
 
 // arr.forEach
-

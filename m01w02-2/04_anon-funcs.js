@@ -24,4 +24,3 @@ runMyFunction(function(name) {
 });
 
 // reference it again
-
