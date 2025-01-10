@@ -8,42 +8,42 @@
 - [x] Using Chrome DevTools to see requests and responses
 - [x] Practice debugging Express
 
-### CRUD
-* Create
-* Read
-* Update
-* Delete
-* a CRUD app
+### Express
 
-### Embedded JavaScript
-* EJS
-* allows us to mix HTML and JS
-* template literal
-* HTML template
-* template variables
+* A framework that lets us create routes and write/include middleware easily
 
-const name = 'carol'
-`hello ${name}`
+### CRUD and BREAD
 
-  <% for () { %> => non-outputting tags (this will not show up in the finished html)
-  <%= name %> => output the contents to the html
+* There are 5 main operations that we can perform on a particular resource (or group of resources)
+  * Create a new resource
+  * Retrieve all of the existing resources
+  * Retrieve a particular resource
+  * Edit a particular resource
+  * Delete a particular resource
 
-Forms are the only thing in HTML that can make a POST request
+* We use acronyms to help us remember these operations: **CRUD** and **BREAD**
+  * **CRUD**: **C**reate **R**ead **U**pdate **D**elete
+  * **BREAD**: **B**rowse **R**ead **E**dit **A**dd **D**elete
 
+### Routes
 
-urlencoding
-name=bongo%20monkey&breed=monkey&age=3.5
+* A route is made up of a **VERB** and a **PATH**.
+* Verbs: **GET**, **POST**, **PUT**, **PATCH**, **DELETE**
+* Path: `example.com`**/resource**, `example.com`**/resource/:id**
 
-parse => turn from one format to another format
-body-parser
+### Forms vs Anchor Tags
+* Anchor tags (`<a></a>`) only make `GET` requests
+  * Anchor tags are generally used to link between websites or to different pages on the same site
+* Forms can make either `GET` or `POST` requests (specified in the form's `method` attribute)
+  * Forms are used to collect and submit user information
+* If data is being retrieved, use a `GET` request
+* If data is being updated/changed/created, use a `POST` request (therefore, a form)
+  * NOTE: This includes things like buttons to delete a resource (simply wrap the button in a form)
 
-{
-  name: 'bongo',
-  breed: 'monkey',
-  age: 3.5
-}
-
-
-
-
-
+### Useful Links
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+* [BREAD/CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
+* [Express](https://github.com/expressjs/express)
+* [Embedded JavaScript (EJS)](https://github.com/mde/ejs)
+* [Delete Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)
+* [HTTP Forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)
