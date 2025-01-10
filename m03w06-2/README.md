@@ -8,10 +8,6 @@
 - [x] Using Chrome DevTools to see requests and responses
 - [x] Practice debugging Express
 
-### Express
-
-* A framework that lets us create routes and write/include middleware easily
-
 ### CRUD and BREAD
 
 * There are 5 main operations that we can perform on a particular resource (or group of resources)
@@ -25,12 +21,6 @@
   * **CRUD**: **C**reate **R**ead **U**pdate **D**elete
   * **BREAD**: **B**rowse **R**ead **E**dit **A**dd **D**elete
 
-### Routes
-
-* A route is made up of a **VERB** and a **PATH**.
-* Verbs: **GET**, **POST**, **PUT**, **PATCH**, **DELETE**
-* Path: `example.com`**/resource**, `example.com`**/resource/:id**
-
 ### Forms vs Anchor Tags
 * Anchor tags (`<a></a>`) only make `GET` requests
   * Anchor tags are generally used to link between websites or to different pages on the same site
@@ -41,7 +31,6 @@
   * NOTE: This includes things like buttons to delete a resource (simply wrap the button in a form)
 
 ### Useful Links
-* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 * [BREAD/CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
 * [Express](https://github.com/expressjs/express)
 * [Embedded JavaScript (EJS)](https://github.com/mde/ejs)

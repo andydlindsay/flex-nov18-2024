@@ -12,6 +12,7 @@
 
   <form method="POST" action="/pets/<%= pet.id %>/edit">
     <label>Name</label>
+    <!-- use the value key to prepopulate the input -->
     <input name="name" value="<%= pet.name %>" />
     <br/>
     <label>Breed</label>
