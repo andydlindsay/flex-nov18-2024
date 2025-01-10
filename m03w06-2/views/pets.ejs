@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets</title>
+</head>
+<body>
+  <h1>All the pets!</h1>
+
+  <a href="/pets/new">create a new pet</a>
+
+  <% for (const petId in pets) { %>
+    <div style="border: 2px solid black;">
+      <h2>Name: <%= pets[petId].name %></h2>
+      <h3>Breed: <%= pets[petId].breed %></h3>
+      <h3>Age: <%= pets[petId].age %></h3>
+      
+      <form method="POST" action="/pets/<%= petId %>">
+        <button type="submit">Delete</button>
+      </form>
+    </div>
+  <% } %>
+
+</body>
+</html>
