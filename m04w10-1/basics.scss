@@ -1,0 +1,71 @@
+@import "variables";
+
+// variables
+// $font-color: orange;
+// $border-width: 10px;
+// $border: 2px solid brown;
+
+body {
+  font-size: 24px;
+  margin: 10px;
+  border: $border;
+  color: $font-color;
+}
+
+html {
+  font-size: 100px;
+  color: $font-color;
+  padding: $padding;
+}
+
+// nesting
+
+// <div>
+//   <header>
+//     <p>Hello world</p>
+//   </header>
+// </div>
+
+div {
+  border-color: red;
+
+  header {
+    font-size: 2em;
+    padding: 10px;
+
+    p {
+      color: yellow;
+    }
+  }
+}
+
+// extending a class
+.heading {
+  text-decoration: underline;
+  display: flex;
+}
+
+.another-class {
+  @extend .heading;
+  color: orange;
+}
+
+// mixins => functions
+@mixin create-styles($flex-direction, $font-size) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: center;
+  font-size: $font-size;
+  padding: calc($font-size / 2);
+  margin-right: 2 * $font-size;
+}
+
+.my-class {
+  @include create-styles(row, 16px);
+}
+
+.my-other-class {
+  @include create-styles(column, 2rem);
+}
+
+
